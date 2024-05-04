@@ -1,1 +1,0 @@
-# spring-oauth2-social-login
