@@ -1,15 +1,14 @@
 package com.example;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.boot.autoconfigure.security.servlet.SecurityAutoConfiguration;
 
 
 //@SpringBootApplication(exclude = SecurityAutoConfiguration.class)
 @SpringBootApplication
-public class GreenDayApplication {
+public class LoginApplication {
 
     public static void main(String[] args) {
-    SpringApplication.run(GreenDayApplication.class, args);
+    SpringApplication.run(LoginApplication.class, args);
     }
 
 
